@@ -1,0 +1,21 @@
+@import url(./../default.css);
+@import url(./apresentation.css);
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--darkBrown);
+}
+
+section{
+    width: 75vw;
+    height: 85vh;
+
+    border-radius: 1.5vw;
+
+    background-color: var(--brown);
+
+    overflow: hidden;
+}

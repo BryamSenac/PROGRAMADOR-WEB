@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Hubballi&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  button, input, textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /*Variaveis*/
+
+  :root{
+    --white: #fdfdfd;
+    --darkBrown: #231b15;
+    --ligthGreen: #75a349;
+    --green: #57792f;
+    --ligthRed: #ab321b;
+    --red: #862121;
+    --ligthBrown: #c49977;
+    --brown: #a46c44;
+
+    --fontPri: 'Galada';
+    --fontSec: 'Hubballi'
+  }
