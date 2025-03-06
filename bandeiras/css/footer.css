@@ -1,0 +1,20 @@
+footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+
+    padding: 0 3vw;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer button{
+    font-size: 1.2vw;
+}
+
+#bnt-contact i{
+    font-size: 2vw;
+    margin: 0 1vw;
+}

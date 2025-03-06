@@ -1,0 +1,16 @@
+#japao{
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#japao div{
+    background-color: red;
+
+    width: 50%;
+    height: 80%;
+
+    border-radius: 50%;
+}

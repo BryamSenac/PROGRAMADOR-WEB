@@ -1,0 +1,50 @@
+main{
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 70vw;
+    height: 60vh;
+
+    margin-top: 10vh;
+
+    border-radius: 3vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 5vw;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+#infos-flag{
+    width: 25vw;
+    height: 50vh;
+
+    position: absolute;
+    top: 30vh;
+    right: 20vw;
+
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+
+    color: white;
+}
+
+#infos-flag h1{
+    font-size: 5vw;
+}
+
+#infos-flag p{
+    text-align: justify;
+    font-size: 1vw;
+}

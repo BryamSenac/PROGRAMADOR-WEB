@@ -1,0 +1,29 @@
+@import url(./japao.css);
+
+#flags-controller{
+    min-width: max-content;
+    min-height: max-content;
+
+    position: absolute;
+    top: 0;
+    left: 20vw;
+
+    transition: all 0.2s ease-in-out;
+
+    z-index: 2;
+}
+
+.flags{
+    width: 30vw;
+    height: 40vh;
+
+    margin: 30vh 0 60vh;
+
+    background-color: red;
+}
+
+.mini-flags{
+    width: 6vw;
+    height: 8vh;
+    background-color: blue;
+}
