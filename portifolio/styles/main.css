@@ -1,21 +1,38 @@
 #imagem-principal{
-    width: 40vw;
-    height: 80vh;
+    width: 45vw;
+    height: 100vh;
 
     position: absolute;
-    top: 19vh;
+    top: 0vh;
     left: 15vw;
-
-    background-color: rgb(93, 93, 215);
 }
 
 #informacoes{
-    width: 30vw;
+    width: 25vw;
     height: 60vh;
 
     position: absolute;
-    top: 28vh;
+    top: 20vh;
     left: 56vw;
 
-    background-color: rgb(22, 22, 64);
+    color: var(--corPreta);
+
+    text-align: justify;
+
+    font-family: var(--fontPrincipal);
+}
+
+#informacoes h1{
+    font-family: var(--fontSecundaria);
+    font-size: 10.25vw;
+    position: absolute;
+}
+
+#informacoes h2{
+    font-size: 5.95vw;
+    margin-top: 24vh;
+} 
+
+#informacoes p{
+    font-size: 1.2vw;
 }

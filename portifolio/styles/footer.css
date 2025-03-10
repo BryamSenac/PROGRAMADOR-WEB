@@ -8,5 +8,19 @@ footer{
 
     z-index: -1;
 
-    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2vw;
+}
+
+footer button{
+    font-size: 3vw;
+    color: var(--corPreta);
+
+    background-color: transparent;
+    border: none;
+
+    margin: 0 0.5vw;
 }
