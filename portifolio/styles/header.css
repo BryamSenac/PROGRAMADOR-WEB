@@ -1,0 +1,55 @@
+header{
+    width: 100vw;
+    height: 17vh;
+
+    background-color: red;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2vw;
+}
+
+.secao-header{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 80%;
+
+    background-color: rgb(216, 116, 116);
+}
+
+#logo-profissao{
+    align-items: center;
+}
+
+#botoes-header{
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao{
+    width: 30%;
+    height: 50%;
+
+    background-color: rgb(100, 14, 14);
+}
+#img{
+    width: 6vw;
+    height: 6vw;
+
+    margin: 0 2% 0 0;
+
+    background-color:  rgb(100, 14, 14);
+}
+
+#profissao{
+    width: 70%;
+    height: 100%;
+
+    background-color:  rgb(100, 14, 14);
+}

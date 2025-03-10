@@ -1,0 +1,21 @@
+#imagem-principal{
+    width: 40vw;
+    height: 80vh;
+
+    position: absolute;
+    top: 19vh;
+    left: 15vw;
+
+    background-color: rgb(93, 93, 215);
+}
+
+#informacoes{
+    width: 30vw;
+    height: 60vh;
+
+    position: absolute;
+    top: 28vh;
+    left: 56vw;
+
+    background-color: rgb(22, 22, 64);
+}
