@@ -1,0 +1,9 @@
+#italia{
+    display: flex;
+    flex-direction: row;
+}
+
+#italia div{
+    width: 33.33%;
+    height: 100%;
+}

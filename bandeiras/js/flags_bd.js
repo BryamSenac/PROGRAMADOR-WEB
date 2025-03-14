@@ -6,35 +6,38 @@ export const flags = [
     },
     {
       flagName: "França",
-      flagDescription: "A bandeira da França, conhecida como 'Le Tricolore', possui três faixas verticais azul, branca e vermelha. Criada durante a Revolução Francesa (1789), representa os ideais de liberdade, igualdade e fraternidade."
+      flagDescription: "A bandeira da França, conhecida como 'Le Tricolore', possui três faixas verticais azul, branca e vermelha. Criada durante a Revolução Francesa (1789), representa os ideais de liberdade, igualdade e fraternidade.",
+      img:"https://th.bing.com/th/id/R.30c314227e9d28868585d9adb2434afa?rik=O9iSajGu6nUMcw&pid=ImgRaw&r=0",
     },
     {
       flagName: "Itália",
-      flagDescription: "Inspirada na bandeira francesa, a bandeira da Itália possui três faixas verticais verdes, brancas e vermelhas. Foi adotada em 1797, simbolizando esperança, fé e caridade, e se tornou oficial em 1861 com a unificação italiana."
+      flagDescription: "Inspirada na bandeira francesa, a bandeira da Itália possui três faixas verticais verdes, brancas e vermelhas. Foi adotada em 1797, simbolizando esperança, fé e caridade, e se tornou oficial em 1861 com a unificação italiana.",
+      img: "https://th.bing.com/th/id/R.c6452f89d473b2720ee803eea1021d42?rik=m%2bzqMOfg5v8Qmg&pid=ImgRaw&r=0"
     },
     {
       flagName: "Alemanha",
-      flagDescription: "A bandeira da Alemanha tem três faixas horizontais preto, vermelho e dourado. Foi adotada em 1919 e reinstaurada em 1949, representando a unidade e a liberdade do país após períodos de divisão e guerra."
+      flagDescription: "A bandeira da Alemanha tem três faixas horizontais preto, vermelho e dourado. Foi adotada em 1919 e reinstaurada em 1949, representando a unidade e a liberdade do país após períodos de divisão e guerra.",
+      img: "https://images.alphacoders.com/101/1010255.jpg",
     },
     {
-      flagName: "Países Baixos",
-      flagDescription: "A bandeira dos Países Baixos tem três faixas horizontais vermelha, branca e azul. Originalmente laranja, foi adotada em 1572 durante a guerra contra a Espanha e alterada para as cores atuais no século XVII."
+      flagName: "Holanda",
+      flagDescription: "A bandeira dos Países Baixos tem três faixas horizontais vermelha, branca e azul. Originalmente laranja, foi adotada em 1572 durante a guerra contra a Espanha e alterada para as cores atuais no século XVII.",
+      img:"https://th.bing.com/th/id/R.91ba2fc8bda346553ef1fdb3aecd8904?rik=YQCv5HmNWT4GNg&pid=ImgRaw&r=0"
     },
     {
       flagName: "Ucrânia",
-      flagDescription: "Com duas faixas horizontais azul e amarela, a bandeira da Ucrânia simboliza o céu azul sobre campos de trigo. Foi usada desde o século XIX e oficializada em 1992, após a independência da União Soviética."
+      flagDescription: "Com duas faixas horizontais azul e amarela, a bandeira da Ucrânia simboliza o céu azul sobre campos de trigo. Foi usada desde o século XIX e oficializada em 1992, após a independência da União Soviética.",
+      img: "https://th.bing.com/th/id/R.ece17d085c5147d2d14a397e3c1a8dfa?rik=iy6JjF2tcy07Tw&pid=ImgRaw&r=0"
     },
     {
       flagName: "Polônia",
-      flagDescription: "A bandeira da Polônia tem duas faixas horizontais, branca e vermelha. As cores vêm do brasão nacional e representam pureza e bravura. Foi adotada oficialmente em 1919, após a Primeira Guerra Mundial."
+      flagDescription: "A bandeira da Polônia tem duas faixas horizontais, branca e vermelha. As cores vêm do brasão nacional e representam pureza e bravura. Foi adotada oficialmente em 1919, após a Primeira Guerra Mundial.",
+      img: "https://th.bing.com/th/id/R.21d9c4b617136e2b4dbe8c9c6d316fe1?rik=d7Ykh%2fCoORQdlg&pid=ImgRaw&r=0"
     },
     {
       flagName: "Indonésia",
-      flagDescription: "Com duas faixas horizontais vermelha e branca, a bandeira da Indonésia é inspirada na bandeira do Império Majapahit do século XIII. Foi oficializada em 1945 com a independência do país."
-    },
-    {
-      flagName: "Mônaco",
-      flagDescription: "Idêntica à bandeira da Indonésia, a bandeira de Mônaco tem duas faixas horizontais vermelha e branca, cores do brasão da Casa de Grimaldi. Foi adotada oficialmente em 1881."
+      flagDescription: "Com duas faixas horizontais vermelha e branca, a bandeira da Indonésia é inspirada na bandeira do Império Majapahit do século XIII. Foi oficializada em 1945 com a independência do país.",
+      img: "https://th.bing.com/th/id/R.af208b62c63b6c3d95936b11b919650e?rik=HMY2Tvtw4kU6zw&pid=ImgRaw&r=0"
     },
     {
       flagName: "Nigéria",

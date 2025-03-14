@@ -11,5 +11,5 @@ export function swapFlag(index){
 
     titleFlag.textContent = flags[index].flagName;
     descriptionFlag.textContent = flags[index].flagDescription;
-    body.style.backgroundImage = `url(${flags[0].img})`
+    body.style.backgroundImage = `url(${flags[index].img})`
 }

@@ -1,4 +1,11 @@
 @import url(./japao.css);
+@import url(./franca.css);
+@import url(./italia.css);
+@import url(./alemanha.css);
+@import url(./holanda.css);
+@import url(./ucrania.css);
+@import url(./polonia.css);
+@import url(./indonesia.css);
 
 #flags-controller{
     min-width: max-content;
@@ -26,4 +33,23 @@
     width: 6vw;
     height: 8vh;
     background-color: blue;
+}
+
+.azul{
+    background-color: blue;
+}
+.branca{
+    background-color: white;
+}
+.vermelha{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.preta{
+    background-color: black;
+}
+.amarela{
+    background-color: yellow;
 }
