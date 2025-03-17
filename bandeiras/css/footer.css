@@ -17,6 +17,12 @@ footer button{
     font-size: 1.2vw;
 
     color: white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+footer button:hover{
+    transform: scale(1.15);
 }
 
 #bnt-contact i{
