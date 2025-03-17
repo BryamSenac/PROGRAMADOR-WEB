@@ -6,6 +6,12 @@
 @import url(./ucrania.css);
 @import url(./polonia.css);
 @import url(./indonesia.css);
+@import url(./nigeria.css);
+@import url(./argentina.css);
+@import url(./finlandia.css);
+@import url(./suecia.css);
+@import url(./dinamarca.css);
+@import url(./suica.css);
 
 #flags-controller{
     min-width: max-content;
@@ -25,8 +31,6 @@
     height: 40vh;
 
     margin: 30vh 0 60vh;
-
-    background-color: red;
 }
 
 .mini-flags{
@@ -52,4 +56,7 @@
 }
 .amarela{
     background-color: yellow;
+}
+.azul-claro{
+    background-color: lightskyblue;
 }

@@ -41,26 +41,32 @@ export const flags = [
     },
     {
       flagName: "Nigéria",
-      flagDescription: "A bandeira da Nigéria tem três faixas verticais verde, branca e verde. Criada em 1959 por um estudante, representa a riqueza natural e a paz do país. Foi adotada em 1960 com a independência."
+      flagDescription: "A bandeira da Nigéria tem três faixas verticais verde, branca e verde. Criada em 1959 por um estudante, representa a riqueza natural e a paz do país. Foi adotada em 1960 com a independência.",
+      img: "https://wallpapercave.com/wp/wp1984668.jpg"
     },
     {
       flagName: "Argentina",
-      flagDescription: "A bandeira da Argentina tem três faixas horizontais azul-celeste e branca, com um sol no centro. Criada em 1812, simboliza o céu claro e a liberdade do país, sendo adotada oficialmente em 1816."
+      flagDescription: "A bandeira da Argentina tem três faixas horizontais azul-celeste e branca, com um sol no centro. Criada em 1812, simboliza o céu claro e a liberdade do país, sendo adotada oficialmente em 1816.",
+      img: "https://wallpaperaccess.com/full/196900.jpg"
     },
     {
       flagName: "Finlândia",
-      flagDescription: "A bandeira da Finlândia tem uma cruz azul sobre fundo branco. Criada em 1918 após a independência da Rússia, simboliza os lagos e a neve abundante no país nórdico."
+      flagDescription: "A bandeira da Finlândia tem uma cruz azul sobre fundo branco. Criada em 1918 após a independência da Rússia, simboliza os lagos e a neve abundante no país nórdico.",
+      img: "https://th.bing.com/th/id/R.190fa1b54e65091fb65d4ef1c47a5885?rik=jaA1KAt2OQByRA&pid=ImgRaw&r=0"
     },
     {
       flagName: "Suécia",
-      flagDescription: "A bandeira da Suécia tem um fundo azul com uma cruz amarela escandinava. Inspirada no brasão real, foi usada desde o século XVI e oficializada em 1906, representando a herança cristã do país."
+      flagDescription: "A bandeira da Suécia tem um fundo azul com uma cruz amarela escandinava. Inspirada no brasão real, foi usada desde o século XVI e oficializada em 1906, representando a herança cristã do país.",
+      img: "https://th.bing.com/th/id/R.de26fcce6ac8d630a2116f2dd8e1e646?rik=gJr1FZ7cUwMy9g&pid=ImgRaw&r=0"
     },
     {
       flagName: "Dinamarca",
-      flagDescription: "A bandeira da Dinamarca, chamada 'Dannebrog', tem um fundo vermelho com uma cruz branca. Segundo a lenda, caiu do céu durante uma batalha em 1219. É considerada a bandeira nacional mais antiga ainda em uso."
+      flagDescription: "A bandeira da Dinamarca, chamada 'Dannebrog', tem um fundo vermelho com uma cruz branca. Segundo a lenda, caiu do céu durante uma batalha em 1219. É considerada a bandeira nacional mais antiga ainda em uso.",
+      img: "https://images.wallpaperscraft.com/image/single/city_buildings_bridge_200284_1920x1080.jpg"
     },
     {
       flagName: "Suíça",
-      flagDescription: "A bandeira da Suíça é quadrada e tem um fundo vermelho com uma cruz branca no centro. Sua origem remonta ao século XIV e simboliza neutralidade e proteção humanitária."
+      flagDescription: "A bandeira da Suíça é quadrada e tem um fundo vermelho com uma cruz branca no centro. Sua origem remonta ao século XIV e simboliza neutralidade e proteção humanitária.",
+      img: "https://th.bing.com/th/id/R.7941c242b6a6a560cdf9c30b8b728fc4?rik=DFZDoNruo2kT8A&pid=ImgRaw&r=0"
     }
   ];

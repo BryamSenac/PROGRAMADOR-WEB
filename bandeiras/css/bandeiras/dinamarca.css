@@ -1,0 +1,15 @@
+#dinamarca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dinamarca-horizontal{
+    width: 29%;
+    height: 20%;
+}
+
+.dinamarca-vertical{
+    width: 13%;
+    height: 100%;
+}

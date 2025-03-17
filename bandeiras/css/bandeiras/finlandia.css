@@ -1,0 +1,15 @@
+#finlandia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finlandia-horizontal{
+    width: 27%;
+    height: 30%;
+}
+
+.finlandia-vertical{
+    width: 19%;
+    height: 100%;
+}

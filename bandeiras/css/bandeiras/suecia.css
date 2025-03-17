@@ -1,0 +1,15 @@
+#suecia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suecia-horizontal{
+    width: 27%;
+    height: 30%;
+}
+
+.suecia-vertical{
+    width: 19%;
+    height: 100%;
+}
