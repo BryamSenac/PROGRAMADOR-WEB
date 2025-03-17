@@ -1,4 +1,4 @@
-header{
+header {
     width: 100vw;
     height: 17vh;
 
@@ -11,28 +11,28 @@ header{
     padding: 0 2vw;
 }
 
-.secao-header{
+.secao-header {
     display: flex;
     flex-direction: row;
     width: 45%;
     height: 80%;
 }
 
-#logo-profissao{
+#logo-profissao {
     align-items: center;
 }
 
-#botoes-header{
+#botoes-header {
     justify-content: space-between;
     align-items: center;
 }
 
-.botao-header{
+.botao-header {
     width: 30%;
     height: 50%;
     border: none;
     border-radius: 10vw;
-    box-shadow: 0.2vw 0.2vw 0.2vw var(--corSombra); 
+    box-shadow: 0.2vw 0.2vw 0.2vw var(--corSombra);
 
     display: flex;
     flex-direction: row;
@@ -41,31 +41,67 @@ header{
 
     color: var(--corBranca);
 
-    padding:0 3%;
+    padding: 0 3%;
+
+    cursor: pointer;
 }
 
-.botao-header h6{
+/* COPIA */
+.botao-header {
+    border: none;
+    font-weight: bold;
+    transition: all 1000ms;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao-header:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 5px 17px -4px var(--corPreta);
+}
+
+.botao-header::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--corPreta);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: all 1000ms;
+}
+
+.botao-header:hover::before {
+    width: 250%;
+}
+
+/*FIM COPIA*/
+
+.botao-header h6 {
     font-family: var(--fontPrincipal);
     font-size: 1.2vw;
 }
 
-.botao-header i{
+.botao-header i {
     font-size: 1.4vw;
+    transition: all 0.3s ease-in-out;
 }
 
-#btn-amarelo{
+#btn-amarelo {
     background-color: var(--corAmarela);
 }
 
-#btn-azul{
+#btn-azul {
     background-color: var(--corAzul);
 }
 
-#btn-rosa{
+#btn-rosa {
     background-color: var(--corRosa);
 }
 
-#img{
+#img {
     width: 6vw;
     height: 6vw;
 
@@ -74,10 +110,10 @@ header{
     border-radius: 50%;
     box-shadow: 0.2vw 0.2vw 0.2vw var(--corSombra);
 
-    background-color:  var(--corBranca);
+    background-color: var(--corBranca);
 }
 
-#profissao{
+#profissao {
     width: 70%;
     height: 100%;
 

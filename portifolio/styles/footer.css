@@ -23,4 +23,11 @@ footer button{
     border: none;
 
     margin: 0 0.5vw;
+
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.botao-footer:hover{
+    transform: scale(1.3);
 }

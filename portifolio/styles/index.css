@@ -9,12 +9,14 @@ body{
     padding: 0;
 
     overflow: hidden;
+
+    background-color: var(--corBranca);
 }
 
 :root{
     --corPreta:#353535;
     --corSombra:#35353577;
-    --corBranca:#F5F4F4;
+    --corBranca:#F6F6F4;
     --corRosa:#F14598;
     --corAmarela:#F2BA57;
     --corAzul:#26B2DA;
