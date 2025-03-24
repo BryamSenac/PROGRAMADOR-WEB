@@ -125,3 +125,36 @@ header {
     font-size: 2vw;
     color: var(--corPreta);
 }
+
+@media (max-width: 480px) {
+    header{
+        height: 20vh;
+    }
+
+    #logo-profissao{
+        width: 60%;
+    }
+    #botoes-header{
+        width: 40%;
+        justify-content: start;
+    }
+    
+    .botao-header{
+        width:10vw;
+        height:10vw;
+        justify-content: center;
+        margin-right: 3%;
+    }
+    .botao-header h6{
+        display: none;
+    }
+    .botao-header i{
+        font-size: 4vw;
+    }
+    #img{
+        display: none;
+    }
+    #profissao{
+        font-size: 6vw;
+    }
+}

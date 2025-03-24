@@ -1,6 +1,6 @@
 #imagem-principal{
     width: 45vw;
-    height: 90vh;
+    height: auto;
 
     position: absolute;
     top: 5vh;
@@ -55,4 +55,34 @@
 }
 #informacoes p:hover{
     color: var(--corAmarela);
+}
+
+@media (max-width: 480px) {
+    #imagem-principal{
+        width: 110vw;
+        top: 25vh;
+        left: -5vw;
+    }
+    #informacoes{
+        width: 90vw;
+        height: 70vh;
+        
+        top: 13vh;
+        left: 5vw;
+    }
+
+    #informacoes h1{
+        margin: 0;
+        font-size: 25vw;
+    }
+
+    #informacoes h2{
+        margin-top: 15vh;
+        font-size: 14.7vw;
+    }
+
+    #informacoes p{
+        margin-top: 40vh;
+        font-size: 3vw;
+    }
 }

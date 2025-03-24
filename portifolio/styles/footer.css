@@ -31,3 +31,12 @@ footer button{
 .botao-footer:hover{
     transform: scale(1.3);
 }
+
+@media (max-width: 480px) {
+    footer{
+        justify-content: center;
+    }
+    footer button{
+        font-size: 10vw;
+    }
+}
