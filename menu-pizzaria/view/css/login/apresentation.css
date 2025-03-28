@@ -11,6 +11,7 @@ header{
 
 #dust-name{
     font-family: var(--fontPri);
+    font-weight: 300;
     font-size: 8vw;
 
     position: absolute;
@@ -19,6 +20,7 @@ header{
 
 #pizzaria-name{
     font-family: var(--fontSec);
+    font-weight: 100;
     font-size: 4vw;
 
     position: absolute;
@@ -27,6 +29,7 @@ header{
 
 #site-explication{
     font-family: var(--fontPri);
+    font-weight: 300;
     font-size: 2.5vw;
 
     position: absolute;

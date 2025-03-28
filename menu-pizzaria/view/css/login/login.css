@@ -1,5 +1,7 @@
 @import url(./../default.css);
 @import url(./apresentation.css);
+@import url(./logo.css);
+@import url(./form.css);
 
 body{
     display: flex;
@@ -18,4 +20,7 @@ section{
     background-color: var(--brown);
 
     overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
 }

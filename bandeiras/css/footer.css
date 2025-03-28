@@ -19,6 +19,8 @@ footer button{
     color: white;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+
+    z-index: 3;
 }
 
 footer button:hover{
