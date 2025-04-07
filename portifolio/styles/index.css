@@ -1,26 +1,8 @@
+@import url(./reset.css);
 @import url(./header.css);
 @import url(./main.css);
 @import url(./footer.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Julius+Sans+One&display=swap');
-
 body{
-    margin: 0;
-    padding: 0;
-
     overflow: hidden;
-
-    background-color: var(--corBranca);
-}
-
-:root{
-    --corPreta:#353535;
-    --corSombra:#35353577;
-    --corBranca:#F6F6F4;
-    --corRosa:#F14598;
-    --corAmarela:#F2BA57;
-    --corAzul:#26B2DA;
-
-    --fontPrincipal:"Julius Sans One";
-    --fontSecundaria:"Jockey One";
 }

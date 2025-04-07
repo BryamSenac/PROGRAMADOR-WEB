@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./../css/login/login.css">
         <script src="https://kit.fontawesome.com/398cd98506.js"
             crossorigin="anonymous"></script>
+
+        <script src="./../../controller/login_controller.js"></script>
     </head>
     <body>
         <section>
@@ -29,30 +31,30 @@
                     </div>
 
                     <div id="form">
-                        <div class="input">
+                        <!-- <div class="input">
                             <i class="fa-solid fa-user"></i>
                             <input type="text">
-                        </div>
-                        <div class="input">
+                        </div> -->
+                        <!-- <div class="input">
                             <i class="fa-solid fa-phone"></i>
                             <input type="tel">
-                        </div>
+                        </div> -->
                         <div class="input" >
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="email">
+                            <input id="input_email" type="email">
                         </div>
                         <div class="input">
                             <i class="fa-solid fa-lock" id="padlok"></i>
-                            <input type="password">
-                            <i class="fa-solid fa-eye"></i><!--<i class="fa-regular fa-eye-slash"></i>-->
+                            <input id="input_senha" type="password">
+                            <i id="password_icon" onclick="inverterSenhaSkin()" class="fa-solid fa-eye"></i><!--<i class="fa-regular fa-eye-slash"></i>-->
                         </div>
-                        <div class="input">
+                        <!-- <div class="input">
                             <i class="fa-solid fa-lock" id="padlok"></i>
                             <input type="password">
-                            <i class="fa-solid fa-eye"></i><!--<i class="fa-regular fa-eye-slash"></i>-->
-                        </div>
+                            <i class="fa-solid fa-eye"></i><i class="fa-regular fa-eye-slash"></i>
+                        </div> -->
                         <!-- <p>Esqueceu sua senha?</p> -->
-                        <button>ENTRAR</button>
+                        <button id="btn_login" onclick="verificarLogin()">ENTRAR</button>
                     </div>
 
                     <div id="login-options">
