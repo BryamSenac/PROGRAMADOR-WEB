@@ -20,22 +20,34 @@
     height: 44vh;
 
     margin: 3vh 5vw;
+    padding: 2vw;
+}
+
+.banner h1{
+    font-family: var(--fontSecundaria);
+    font-size: 4.5vw;
+    color: var(--corBranca);
+}
+.banner p{
+    font-family: var(--fontPrincipal);
+    font-size: 1.5vw;
+    color: var(--corPreta);
 }
 
 #banner_1{
-    background-color: purple;
+    background-color: var(--corAzul);
 }
 #banner_2{
-    background-color: blue;
+    background-color: var(--corRosa);
 }
 #banner_3{
-    background-color: green;
+    background-color: var(--corAmarela);
 }
 #banner_4{
-    background-color: yellow;
+    background-color: var(--corAzul);
 }
 #banner_5{
-    background-color: pink;
+    background-color: var(--corRosa);
 }
 
 #btns_banner{
@@ -59,8 +71,9 @@
     border-radius: 50%;
     margin: 0 0.3vw;
 
-    background-color: black;
+    background-color: var(--corBranca);
 
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 

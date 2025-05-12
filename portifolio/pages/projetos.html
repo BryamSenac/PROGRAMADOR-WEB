@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./../styles/projetos.css">
         <script src="https://kit.fontawesome.com/398cd98506.js"
             crossorigin="anonymous"></script>
-        <script src="./../controller/banner_controller.js"></script>
+        <script type="module" src="./../controller/projetos.js"></script>
     </head>
     <body>
         <header>
@@ -28,27 +28,16 @@
                     <h6>PROJETOS</h6>
                     <i class="fa-solid fa-folder"></i>
                 </button>
-                <button id="btn-amarelo" class="botao-header">
+                <button onclick="window.location.href='./formacao.html'"
+                    id="btn-amarelo" class="botao-header">
                     <h6>FORMAÇÃO</h6>
                     <i class="fa-solid fa-graduation-cap"></i>
                 </button>
             </div>
         </header>
         <section id="banners_com_btns">
-            <nav id="banners">
-                <div id="banner_1" class="banner"></div>
-                <div id="banner_2" class="banner"></div>
-                <div id="banner_3" class="banner"></div>
-                <div id="banner_4" class="banner"></div>
-                <div id="banner_5" class="banner"></div>
-            </nav>
-            <nav id="btns_banner">
-                <div onclick="girarBanner(0)" id="btn_banner_0" class="btn_banner"></div>
-                <div onclick="girarBanner(1)" id="btn_banner_1" class="btn_banner"></div>
-                <div onclick="girarBanner(2)" id="btn_banner_2" class="btn_banner"></div>
-                <div onclick="girarBanner(3)" id="btn_banner_3" class="btn_banner"></div>
-                <div onclick="girarBanner(4)" id="btn_banner_4" class="btn_banner"></div>
-            </nav>
+        </section>
+        <section id="cards">
         </section>
     </body>
 </html>
