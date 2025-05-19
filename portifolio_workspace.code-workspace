@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "backend_portifolio"
+		},
+		{
+			"path": "portifolio"
+		},
+		{
+			"path": "portfolio_edit"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio_edit"
+	}
+}
