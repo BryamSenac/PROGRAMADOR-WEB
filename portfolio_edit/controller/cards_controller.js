@@ -1,10 +1,11 @@
 import { createCards } from "../view/js/create_cards.js";
+import { deleteBdCardsProjects, postBdCardsProjects, putBdCardsProjects } from "../services/cards_services.js";
 
-document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', () => {
     createCards();
 });
 
-document.getElementById('post').addEventListener('submit', (event)=>{
+document.getElementById('post').addEventListener('submit', async (event) => {
     event.preventDefault()
 
     const name_create = document.getElementById('name_create').value
@@ -14,13 +15,12 @@ document.getElementById('post').addEventListener('submit', (event)=>{
     if (!name_create || !languages_create || !img_create) {
         alert("Algum valor em branco!");
     } else {
-        alert(
-            `Nome: ${name_create}\nLinguagens: ${languages_create}\nImagem: ${img_create}`
-        );
+        await postBdCardsProjects(name_create, languages_create, img_create);
+        createCards();
     }
 });
 
-document.getElementById('delete').addEventListener('submit', (event)=>{
+document.getElementById('delete').addEventListener('submit', async (event) => {
     event.preventDefault()
 
     const id_delete = document.getElementById('id_delete').value
@@ -28,15 +28,14 @@ document.getElementById('delete').addEventListener('submit', (event)=>{
     if (!id_delete) {
         alert("Algum valor em branco!");
     } else {
-        alert(
-            `ID: ${id_delete}`
-        );
+        await deleteBdCardsProjects(id_delete);
+        createCards();
     }
 });
 
-document.getElementById('put').addEventListener('submit', (event)=>{
+document.getElementById('put').addEventListener('submit', async (event) => {
     event.preventDefault()
-    
+
     const name_att = document.getElementById('name_att').value
     const languages_att = document.getElementById('languages_att').value
     const img_att = document.getElementById('img_att').value
@@ -46,9 +45,8 @@ document.getElementById('put').addEventListener('submit', (event)=>{
     if (!name_att || !languages_att || !img_att || !id_att) {
         alert("Algum valor em branco!");
     } else {
-        alert(
-            `Nome: ${name_att}\nLinguagens: ${languages_att}\nImagem: ${img_att} \nID: ${id_att}`
-        );
+        await putBdCardsProjects(id_att, name_att, languages_att, img_att);
+        createCards();
     }
 });
 
