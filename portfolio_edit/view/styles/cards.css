@@ -10,6 +10,12 @@
     overflow-x: scroll;
 }
 
+.del_button{
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+}
+
 .card{
     width: 10%;
     height: 100%;

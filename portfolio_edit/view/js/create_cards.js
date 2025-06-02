@@ -1,4 +1,4 @@
-import { getBdCardsProjects } from "../../services/cards_services.js";
+import { getBdCardsProjects, deleteBdCardsProjects } from "../../services/cards_services.js";
 
 export async function createCards() {
     let cards_section = document.getElementById('cards');
@@ -17,9 +17,18 @@ export async function createCards() {
         let linguagem = document.createElement('h3');
         linguagem.textContent = card_bd.linguagem;
 
+        let button = document.createElement('button');
+        button.className = 'del_button';
+        button.addEventListener('click', async ()=>{
+            console.log(card_bd.id)
+            await deleteBdCardsProjects(card_bd.id);
+            createCards();
+        });
+
         card.appendChild(img);
         card.appendChild(nome);
         card.appendChild(linguagem);
+        card.appendChild(button);
 
         cards_section.appendChild(card);
     });

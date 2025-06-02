@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const bodyParser = require('body-parser');
 
 const projetosRoutes = require('./routers/projetos');
 const formacoesRoutes = require('./routers/formacao');
@@ -9,6 +10,7 @@ const port = 3000;
 
 app.use(cors());
 app.use(express.json());
+app.use(bodyParser.json());
 
 app.use('/projetos', projetosRoutes);
 app.use('/formacoes', formacoesRoutes);
