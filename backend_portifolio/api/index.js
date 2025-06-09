@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { projetosCollection } = require('./../firebase');
+const { projetosCollection } = require('./firebase');
 
 // const projetosRoutes = require('./routers/projetos');
 // const formacoesRoutes = require('./routers/formacao');
