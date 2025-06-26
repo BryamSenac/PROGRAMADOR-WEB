@@ -1,1 +1,0 @@
-export let bd_cards_projetos

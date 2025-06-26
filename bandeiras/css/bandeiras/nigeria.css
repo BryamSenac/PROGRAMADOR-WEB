@@ -1,9 +1,0 @@
-#nigeria{
-    display: flex;
-    flex-direction: row;
-}
-
-#nigeria div{
-    width: 33.33%;
-    height: 100%;
-}

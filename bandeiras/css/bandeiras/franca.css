@@ -1,9 +1,0 @@
-#franca {
-    display: flex;
-    flex-direction: row;
-}
-
-#franca div {
-    width: 33.333%;
-    height: 100%;
-}
