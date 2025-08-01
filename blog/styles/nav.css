@@ -1,0 +1,80 @@
+nav{
+    width: 98vw;
+    height: 80vh;
+    margin: 1vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+
+    padding: 0 2vw 3vw 1vw;
+
+    background-color: red;
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#infos button{
+    width: 6vw;
+    padding: 0.7vh 1vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1vw;
+}
+
+#infos h1{
+    font-size: 3.5vw;
+}
+
+#infos p{
+    font-size: 1.2vw;
+}
+
+#botao_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2vw  ;
+}
+
+#botao_nav div{
+    width: 0.8vw;
+    height: 0.8vw;
+
+    border-radius: 50%;
+    background-color: #333333;
+}
+
+#autor{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    
+    gap: 2vw;
+}
+
+#autor_img{
+    width: 2.5vw;
+    height: 2.5vw;
+
+    border-radius: 50%;
+    background-color: #333333;
+}
+
+#autor h5{
+    font-size: 1.7vw;
+}
+
+#autor h6{
+    font-size: 1vw;
+    text-align: end;
+}

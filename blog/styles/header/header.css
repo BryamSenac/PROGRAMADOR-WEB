@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 3vh 2vw;
+
+    background-color: blue;
+}
+
+#menu{
+    width: 40vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.3vw;
+}
+
+#logo-header{
+    width: 25%;
+    height: 5vh;
+}
+
+#linguagem{
+    width: 5vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.3vw;
+}
+
+#linguagem div{
+    width: 2.5vw;
+    height: 2.5vw;
+
+    border-radius: 50%;
+    background-color: #333333;
+}
