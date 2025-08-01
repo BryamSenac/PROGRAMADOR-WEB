@@ -1,14 +1,21 @@
-// Aula 1 - Introdução a Lógica computacional com Console.log e Váriaveis
+// Aula 1 - Introdução a Lógica computacional
+//  com Console.log e Váriaveis
+
+console.log("Hello World!");
+
+const nome_sobrenome = "Bryam Assolini";
+let minha_idade = 25;
 
 //Desafios de Lógica
-let nome = "Maria";
+
+const nome = "Maria";
 console.log(nome);
 
 let idade = 25;
 console.log("Minha idade é: " + idade);
 
 const PI = 3.14;
-// PI = 3.15;
+//PI = 3.15;
 console.log(PI);
 
 let numero1 = 10;
@@ -34,9 +41,9 @@ let estado = "SP";
 console.log(cidade + ", " + estado);
 
 let n = 100;
-console.log(n / 2);
-let outraVariavel = n / 5;
-console.log(outraVariavel);
+console.log(n);
+n = n / 5;
+console.log(n);
 
 let primeiroNome = "João";
 let ultimoNome = "Silva";
