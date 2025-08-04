@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --colorBlack: #333333;
+    --colorWhite: #F6F6F4;
+    --colorBlue: #0181c2;
+    --colorPink: #e60b7c;
+    --colorOrange: #df7c08;
+
+    --colorShadows:#33333399;
+
+    --fontPrimary: 'Bebas Neue';
+    --fontSecundary: 'Montserrat';
+}

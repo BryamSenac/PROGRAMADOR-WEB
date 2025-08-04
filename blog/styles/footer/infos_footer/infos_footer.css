@@ -1,0 +1,23 @@
+@import url(./center_side.css);
+@import url(./left_side.css);
+@import url(./rigth_side.css);
+
+#infos_footer {
+    width: 99%;
+    height: 30vh;
+
+    margin: 1% 0.5% 0.5%;
+
+    padding: 0 2%;
+
+    background-color: var(--colorBlack);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_lateral {
+    width: 30%;
+    height: 100%;
+}

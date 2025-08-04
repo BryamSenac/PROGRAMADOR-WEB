@@ -1,0 +1,44 @@
+footer{
+    width: 100%;
+    height: 12%;
+
+    padding-right: 5%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn-footer{
+    border: none;
+    background-color: transparent;
+
+    margin: 0 0.3%;
+}
+
+.btn-footer i{
+    font-size: 2.4vw;
+    color: var(--colorBlack);
+
+    transition: all 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+
+.btn-footer i:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 480px){
+    footer{
+        height: 8%;
+        justify-content: center;
+    }
+    .btn-footer{
+        margin: 0 1%;
+    }
+    .btn-footer i{
+        font-size: 10vw;
+    }
+}

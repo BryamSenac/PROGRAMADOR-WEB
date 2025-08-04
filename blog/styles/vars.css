@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --colorBlack: #111111;
+    --colorWhite: #efefef;
+    --colorRed: #FF141E;
+    --colorYellow: #FFF200;
+
+    --colorShadow: #111111c3;
+
+    --fontCurve: 'Nunito';
+    --fontTiny: 'Abel';
+
+    --logoUrl: url('https://logos-world.net/wp-content/uploads/2020/09/LEGO-Symbol.png');
+}

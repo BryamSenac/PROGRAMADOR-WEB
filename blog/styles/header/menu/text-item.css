@@ -1,0 +1,44 @@
+.text-menu {
+  cursor: pointer;
+  position: relative;
+
+  color: var(--colorBlack);
+  text-decoration: none;
+
+  margin: 0 1vw;
+
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+
+  font-weight: 500;
+}
+
+.text-menu:visited{
+  color: inherit;
+}
+
+.text-menu:focus,
+.text-menu:hover {
+  color: var(--colorBlack);
+}
+
+.text-menu:focus:after,
+.text-menu:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.text-menu:after {
+  content: "";
+  pointer-events: none;
+  bottom: -5px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--colorBlack);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}

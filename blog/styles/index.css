@@ -1,3 +1,19 @@
 @import url(./default.css);
+@import url(./vars.css);
+
 @import url(./header/header.css);
-@import url(./nav.css);
+@import url(./nav/nav.css);
+@import url(./sections/sections.css);
+@import url(./footer/infos_main/infos_main.css);
+@import url(./footer/infos_footer/infos_footer.css);
+
+body{
+    background-color: var(--colorWhite);
+}
+
+.mobile-only{
+    display: none;
+}
+.desktop-only{
+    display: block;
+}

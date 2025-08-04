@@ -1,0 +1,15 @@
+@import url(./autor_infos.css);
+@import url(./banner_btns/banner_btns.css);
+
+#infos-banner{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+
+    font-family: var(--fontCurve);
+    color: var(--colorBlack);
+}

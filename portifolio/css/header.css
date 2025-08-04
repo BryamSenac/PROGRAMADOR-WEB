@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    height: 12%;
+
+    padding: 0 2%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo-figure{
+    height: 65%;
+}
+
+#logo{
+    height: 100%; 
+}
+
+#profession{
+    font-size: 1.8vw;
+    color: var(--colorBlack);
+    font-family: var(font);
+
+    margin-left: 1%;
+}
+
+@media (max-width: 480px){
+    header{
+        height: 8%;
+    }
+    #profession{
+        font-size: 6vw;
+    }
+}

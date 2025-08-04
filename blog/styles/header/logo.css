@@ -1,0 +1,13 @@
+#header-logo{
+    width: 5%;
+    height: auto;
+
+    margin: 0 1% 0 0 ;
+}
+
+.img-mobile-only{
+    display: none;
+}
+.img-desktop-only{
+    display: block;
+}

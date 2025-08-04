@@ -1,0 +1,13 @@
+@import url(./text-item.css);
+
+#menu{
+    display: flex;
+}
+
+.icon-mobile-only{
+    display: none;
+}
+
+.item-desktop-only{
+    display: block;
+}

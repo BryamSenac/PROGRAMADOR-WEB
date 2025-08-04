@@ -1,0 +1,9 @@
+@import url(./../btn_animation.css);
+@import url(./title_description.css);
+@import url(./cards.css);
+
+.cards-sections{
+    height: 60vh;
+    width: 97%;
+    margin: 2% 0 0 1.5%;
+}

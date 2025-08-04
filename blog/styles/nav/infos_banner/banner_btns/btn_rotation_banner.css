@@ -1,0 +1,58 @@
+#btns-rotation-banner {
+    margin-left: 5%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-banner {
+    width: 1vw;
+    height: 1vw;
+
+    border: 2px solid var(--colorWhite);
+    border-radius: 50%;
+
+    margin-right: 0.2vw;
+}
+
+#animation-btn-banner {
+    position: absolute;
+
+    width: 1vw;
+    height: 1vw;
+
+    background-color: var(--colorWhite);
+    border-radius: 50%;
+
+    animation: btns_banner_animation 10s 2s infinite;
+}
+
+@keyframes btns_banner_animation {
+
+    0%,
+    100% {
+        margin-left: 0;
+    }
+
+    5% {
+        margin-left: 1.2vw;
+    }
+
+    33% {
+        margin-left: 1.2vw;
+    }
+
+    38% {
+        margin-left: 2.4vw;
+    }
+
+    66% {
+        margin-left: 2.4vw;
+    }
+
+    71% {
+        margin-left: 0;
+    }
+}

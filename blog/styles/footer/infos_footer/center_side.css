@@ -1,0 +1,23 @@
+.footer_central {
+    width: 10%;
+    height: 100%;
+
+    text-align: center;
+    color: var(--colorWhite);
+    font-family: var(--fontTiny);
+
+    padding: 2% 0 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_central a {
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.footer_central a:visited{
+    color: inherit;
+  }

@@ -1,0 +1,15 @@
+
+#main-figure{
+    height: 115%;
+    z-index: -1;
+}
+#abstract-form{
+    height: 100%;
+}
+
+@media (max-width: 480px){
+    #main-figure{
+        position: absolute;
+        height: 60%;
+    }
+}

@@ -1,0 +1,23 @@
+@import url(./default.css);
+@import url(./vars.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/820/720/original/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.primary-text{
+    font-family: var(--fontPrimary);
+}
+
+.secundary-text{
+    font-family: var(--fontSecundary);
+}

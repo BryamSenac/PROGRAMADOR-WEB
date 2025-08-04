@@ -1,45 +1,27 @@
+@import url(./menu/menu.css);
+@import url(./languages.css);
+@import url(./logo.css);
+
 header{
+    position: fixed;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    margin: 1.5vw 1.5vw;
 
-    padding: 3vh 2vw;
+    z-index: 5;
 
-    background-color: blue;
+    font-size: 0.8vw;
+    font-family: var(--fontCurve);
+    color: var(--colorBlack);
+
+    background-color: var(--colorWhite);
+    border-radius: 8px;
+    padding: 1.5vh 1.5vw;    
 }
 
-#menu{
-    width: 40vw;
-
+header div{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-
-    font-size: 1.3vw;
 }
 
-#logo-header{
-    width: 25%;
-    height: 5vh;
-}
-
-#linguagem{
-    width: 5vw;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    font-size: 1.3vw;
-}
-
-#linguagem div{
-    width: 2.5vw;
-    height: 2.5vw;
-
-    border-radius: 50%;
-    background-color: #333333;
-}

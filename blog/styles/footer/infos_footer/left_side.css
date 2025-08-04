@@ -1,0 +1,22 @@
+#fotter_responsibility {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+
+    padding: 2% 0; 
+    padding-right: 10%;
+}
+
+#fotter_responsibility p {
+    font-size: 0.8vw;
+    font-family: var(--fontTiny);
+    color: var(--colorWhite);
+    margin-top: 2%;
+    text-align: justify;
+}
+
+#footer-logo {
+    width: 35%;
+    height: auto;
+}

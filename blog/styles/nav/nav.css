@@ -1,0 +1,8 @@
+@import url(./infos_banner/infos_banner.css);
+@import url(./imgs_banner.css);
+@import url(./../btn_animation.css);
+
+#banners{
+    width: 100vw;
+    height: 85vh;
+}
