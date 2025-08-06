@@ -1,0 +1,64 @@
+.janela-direita {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#lista-tarefas {
+    flex-grow: 1;
+    overflow-y: auto;
+    min-height: 300px;
+}
+
+.card-tarefa {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.checkbox-card {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.card-textos {
+    width: 20vw;
+    flex-grow: 1;
+}
+
+.card-titulo {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-descricao {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.menu-tarefas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.menu-btn {
+    background-color: #6c757d;
+}
+
+.menu-btn .ativo {
+    background-color: #007bff;
+    font-weight: bold;
+}

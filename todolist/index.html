@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script type="module" src="./controller/index.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Minha Lista de Tarefas</h1>
+        <div class="janelas">
+            <div class="janela-esquerda">
+                <h2>Crie uma nova Tarefa</h2>
+                <input type="text" id="input-titulo" placeholder="Título da tarefa...">
+                <textarea id="input-descricao" placeholder="Descrição da tarefa..."></textarea>
+                <button id="btn-add-tarefa">Adicionar</button>
+            </div>
+            <div class="janela-direita">
+                <h2>Minhas Tarefas</h2>
+
+                <div id="lista-tarefas">
+                    <!-- Modelo de um cartão
+                        <div class="card-tarefa ">
+                            <input id="checkbox-card" type="checkbox">
+                            <div class="card-textos">
+                                <p class="card-titulo">Titulo</p>
+                                <p class="card-descricao">descricao</p>
+                            </div>
+                            <button class="btn-restaurar ou btn-deletar">Restaurar</button>
+                        </div> -->
+                </div>
+
+                <div class="menu-tarefas">
+                    <button id="btn-pendentes" class="menu-btn ativo">Pendentes</button>
+                    <button id="btn-concluidas" class="menu-btn">Concluídas</button>
+                    <button id="btn-deletadas" class="menu-btn">Excluídas</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+@import url(./reset.css);
+@import url(./inputs.css);
+@import url(./lista.css);
+@import url(./buttons.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #fcfcfc;
+    color: #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 5% 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 5%;
+}
+main{
+    width: 60%;
+}
+
+.janelas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.janela-esquerda, .janela-direita {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 1%;
+}
