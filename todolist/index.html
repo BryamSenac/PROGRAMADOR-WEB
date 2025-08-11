@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="./styles/index.css">
-    <script type="module" src="./controller/index.js" defer></script>
+    <script type="module" src="./controller/index.js"></script>
 </head>
 
 <body>
@@ -25,9 +25,9 @@
 
                 </div>
                 <div class="menu-tarefas">
-                    <button id="btn-pendentes" class="menu-btn ativo" onclick="listaCartoes()">Pendentes</button>
-                    <button id="btn-concluidas" class="menu-btn" onclick="listaCartoes()">Concluídas</button>
-                    <button id="btn-deletadas" class="menu-btn" onclick="listaCartoes()">Excluídas</button>
+                    <button id="btn-pendentes" class="menu-btn ativo" onclick="listaCartoes('pendente')">Pendentes</button>
+                    <button id="btn-concluidas" class="menu-btn" onclick="listaCartoes('concluido')">Concluídas</button>
+                    <button id="btn-deletadas" class="menu-btn" onclick="listaCartoes('excluido')">Excluídas</button>
                 </div>
             </div>
         </div>
