@@ -17,27 +17,17 @@
                 <h2>Crie uma nova Tarefa</h2>
                 <input type="text" id="input-titulo" placeholder="Título da tarefa...">
                 <textarea id="input-descricao" placeholder="Descrição da tarefa..."></textarea>
-                <button id="btn-add-tarefa">Adicionar</button>
+                <button id="btn-add-tarefa" onclick="addCartao()">Adicionar</button>
             </div>
             <div class="janela-direita">
                 <h2>Minhas Tarefas</h2>
-
                 <div id="lista-tarefas">
-                    <!-- Modelo de um cartão
-                        <div class="card-tarefa ">
-                            <input id="checkbox-card" type="checkbox">
-                            <div class="card-textos">
-                                <p class="card-titulo">Titulo</p>
-                                <p class="card-descricao">descricao</p>
-                            </div>
-                            <button class="btn-restaurar ou btn-deletar">Restaurar</button>
-                        </div> -->
-                </div>
 
+                </div>
                 <div class="menu-tarefas">
-                    <button id="btn-pendentes" class="menu-btn ativo">Pendentes</button>
-                    <button id="btn-concluidas" class="menu-btn">Concluídas</button>
-                    <button id="btn-deletadas" class="menu-btn">Excluídas</button>
+                    <button id="btn-pendentes" class="menu-btn ativo" onclick="listaCartoes()">Pendentes</button>
+                    <button id="btn-concluidas" class="menu-btn" onclick="listaCartoes()">Concluídas</button>
+                    <button id="btn-deletadas" class="menu-btn" onclick="listaCartoes()">Excluídas</button>
                 </div>
             </div>
         </div>
